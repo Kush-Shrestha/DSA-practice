@@ -1,3 +1,5 @@
+//Simulator of Banking System with multiple tellers and customer queue management
+//Ai help 
 #include <iostream>
 using namespace std;
 
@@ -110,25 +112,19 @@ public:
 
 int main() {
     BankSimulation bank(3);
-    
-    cout << "=== BANK QUEUE SIMULATION ===\n\n";
-    
-    // Time 0
+
     for (int i = 0; i < 5; i++) bank.addCustomer(0);
     bank.process(0);
     bank.showStatus();
     
-    // Time 10
     for (int i = 0; i < 3; i++) bank.addCustomer(10);
     bank.process(10);
     bank.showStatus();
     
-    // Time 20
     bank.addCustomer(20);
     bank.process(20);
     bank.showStatus();
     
-    // Time 30
     bank.process(30);
     bank.showStatus();
     
