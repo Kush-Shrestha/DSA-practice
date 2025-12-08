@@ -58,7 +58,7 @@ void selectionSort(int x[], int size) {
 }
 
 void MergeSort(int a[],int b[],int c[],int asize, int bsize, int csize) {
-    int x = 0;      //cursor or index of x(like 0,1,2,3) on a[]         #x vaneko specific indexes that are under array of a[].
+    int x = 0;      //cursor or index of x(like 0,1,2,3) on a[]  #x vaneko specific indexes that are under array of a[].
     int y = 0;      //cursor or index of y on b[]
     int z = 0;      //cursor or index of z on c[]
     while (x < asize && y < bsize) {
