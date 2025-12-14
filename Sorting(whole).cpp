@@ -12,7 +12,7 @@ void BubbleSort(int x[],int size) {
             }
         }
     }
-    cout << "Sorted array: ";
+    cout << 
     for (int i = 0; i < size; i++) {
         cout << x[i] << " ";
     }
