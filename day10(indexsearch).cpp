@@ -14,7 +14,7 @@ for(int i=0;i<size;i++) {
     index=i;
     }
 }
-if(index !=-1){
+if(index !=-1){ 
  cout<<"Number found at index:"<<index<<endl;
 }else{
     cout<<"Number not found"<<endl;
