@@ -55,7 +55,6 @@ public:
     }
 };
 
-// Driver code
 int main() {
     QuadraticHashTable hashTable;
 
