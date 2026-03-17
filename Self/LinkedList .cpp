@@ -2,7 +2,7 @@
 using namespace std;
  
 class Node{
-    private:
+    public:
        int data;
        Node* next;
     public:
@@ -19,6 +19,7 @@ class Node{
 int main(){
     int arr[]={2,3,4,5,6};
     Node* y= new Node(arr[0]);
-    cout<<y;
+    cout<<y;// for address
+    cout<<y->data; // for data and its output will be 2
     return 0;
 }
