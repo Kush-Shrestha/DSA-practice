@@ -36,5 +36,11 @@ int main(){
     cout<<y->data<<endl;  // for data and its output will be 2
     Node* head = convertarr2LL(arr, size);
     cout<<head->data;
+    Node* temp=head;
+    while(temp){
+        cout<<temp->data<<"";
+        temp=temp->next;
+    }
+
     return 0;
 }
